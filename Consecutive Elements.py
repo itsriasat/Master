@@ -1,6 +1,7 @@
 nums = [100,4,200,1,3,2]
 nums_2 = [0,3,7,2,5,8,4,6,0,1]
 nums_3=[1,3,5]
+print(FindLongestSequence(nums_3))
 
 def FindLongestSequence(nums):
     if len(nums)==0:
@@ -21,6 +22,6 @@ def FindLongestSequence(nums):
             count = 1
     result.append(count)
     return max(result)
-print(FindLongestSequence(nums_3))
+
 
 

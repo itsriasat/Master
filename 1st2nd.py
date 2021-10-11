@@ -31,3 +31,6 @@ def searchRange(nums, target) :
     return first_position ,last_position
 
 print(searchRange(nums,2))
+
+import jovian
+jovian.commit()
